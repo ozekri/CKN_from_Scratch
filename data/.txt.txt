@@ -1,0 +1,6 @@
+https://www.kaggle.com/competitions/data-challenge-kernel-methods-2023-2024-extension/data
+
+Put in this folder the files :
+'Xtr.csv'
+'Ytr.csv'
+'Xte.csv'
