@@ -27,7 +27,7 @@ Implementation from scratch, without ML librairies, of the Convolutional Kernel 
 <br />
 <div align="center">
   <a href="https://www.master-mva.com/">
-    <img src="https://github.com/ozekri/CKN_from_Scratch/blob/main/CKN.png" alt="Logo" width="200" height="150">
+    <img src="https://github.com/ozekri/CKN_from_Scratch/blob/main/img/CKN.png" alt="Logo">
   </a>
 <h3 align="center">Project Kernel Methods 2023/2024 : <a href="https://github.com/ozekri/CKN_from_Scratch">CKN from Scratch</a></h3>
 
@@ -48,11 +48,9 @@ Implementation from scratch, without ML librairies, of the Convolutional Kernel 
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#running">running</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -65,9 +63,9 @@ Implementation from scratch, without ML librairies, of the Convolutional Kernel 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-As part of the [image classification challenge](https://www.kaggle.com/competitions/data-challenge-kernel-methods-2023-2024-extension/leaderboard) of the course, the **CKN from Scratch** project is born ! Faced with the constraints of implementing everything from scratch and focusing on the use of kernel methods, our team set itself the challenge of implementing **from scratch**, the **Convolutional Kernel Network** introduced in [[Mairal et al., 2014](https://proceedings.neurips.cc/paper_files/paper/2014/file/81ca0262c82e712e50c580c032d99b60-Paper.pdf)] and developed in [[Mairal, 2016](https://proceedings.neurips.cc/paper_files/paper/2016/file/fc8001f834f6a5f0561080d134d53d29-Paper.pdf)]. The results and lessons learned from this work are discussed, highlighting the potential of kernel methods in an image classification context (but not only!).
+As part of the [image classification challenge](https://www.kaggle.com/competitions/data-challenge-kernel-methods-2023-2024-extension/leaderboard) of the course *Kernel Methods in Machine Learning*, the **CKN from Scratch** project is born ! Faced with the constraints of implementing everything from scratch and focusing on the use of kernel methods, our team set itself the challenge of implementing **from scratch**, the **Convolutional Kernel Network** introduced in [[Mairal et al., 2014](https://proceedings.neurips.cc/paper_files/paper/2014/file/81ca0262c82e712e50c580c032d99b60-Paper.pdf)] and developed in [[Mairal, 2016](https://proceedings.neurips.cc/paper_files/paper/2016/file/fc8001f834f6a5f0561080d134d53d29-Paper.pdf)]. The results and lessons learned from this work are discussed, highlighting the potential of kernel methods in an image classification context (but not only!).
 
-Since it's a from scratcg implementation, it's very inefficient and doesn't work on GPUs. We advise you to use [Dexiong Chen's excellent Pytorch implementation](https://github.com/claying/CKN-Pytorch-image), which helped us build this one.
+Since it's a from scratch implementation, it's very inefficient and doesn't work on GPUs. We advise you to use [Dexiong Chen's excellent Pytorch implementation](https://github.com/claying/CKN-Pytorch-image), which helped us build this one.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,7 +103,7 @@ All you need is a Python environment with the Numpy and Scipy libraries. To visu
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Don't hesitate to contribute, especially on the GPU implementation of the convulsion that we didn't take the time to implement properly and integrate into our code. A few code snippets are available in the `/gpu` folder, but feel free to start from scratch!
+Don't hesitate to contribute, especially on the GPU implementation of the convolution that we didn't take the time to implement properly and integrate into our code. A few code snippets are available in the `/gpu` folder, but feel free to start from scratch!
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
