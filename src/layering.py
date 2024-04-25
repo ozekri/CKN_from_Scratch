@@ -515,7 +515,7 @@ class CKNLayer(Conv2d_scr):
         """
         return self.forward(x)
     
-    def exctract_2d_patches(self,x):
+    def extract_2d_patches(self,x):
         """
         Extracts 2D patches from input data.
 
@@ -543,7 +543,7 @@ class CKNLayer(Conv2d_scr):
         Returns:
             numpy.ndarray: Sampled patches.
         """
-        patches = self.exctract_2d_patches(x_in)
+        patches = self.extract_2d_patches(x_in)
         n_sampling_patches = min(patches.shape[0], n_sampling_patches)
         patches = patches[:n_sampling_patches]
         return patches
