@@ -63,7 +63,7 @@ Implementation from scratch, without ML librairies, of the Convolutional Kernel 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-As part of the [image classification challenge](https://www.kaggle.com/competitions/data-challenge-kernel-methods-2023-2024-extension/leaderboard) of the course *Kernel Methods in Machine Learning*, the **CKN from Scratch** project is born ! Faced with the constraints of implementing everything from scratch and focusing on the use of kernel methods, our team set itself the challenge of implementing **from scratch**, the **Convolutional Kernel Network** introduced in [[Mairal et al., 2014](https://proceedings.neurips.cc/paper_files/paper/2014/file/81ca0262c82e712e50c580c032d99b60-Paper.pdf)] and developed in [[Mairal, 2016](https://proceedings.neurips.cc/paper_files/paper/2016/file/fc8001f834f6a5f0561080d134d53d29-Paper.pdf)]. The results and lessons learned from this work are discussed, highlighting the potential of kernel methods in an image classification context (but not only!).
+We set ourselves the challenge of implementing **from scratch**, the **Convolutional Kernel Network** introduced in [[Mairal et al., 2014](https://proceedings.neurips.cc/paper_files/paper/2014/file/81ca0262c82e712e50c580c032d99b60-Paper.pdf)] and developed in [[Mairal, 2016](https://proceedings.neurips.cc/paper_files/paper/2016/file/fc8001f834f6a5f0561080d134d53d29-Paper.pdf)].
 
 Since it's a from scratch implementation, it's very inefficient and doesn't work on GPUs. We advise you to use [Dexiong Chen's excellent Pytorch implementation](https://github.com/claying/CKN-Pytorch-image), which helped us build this one.
 
