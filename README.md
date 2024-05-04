@@ -136,7 +136,7 @@ Oussama ZEKRI - oussama.zekri@ens-paris-saclay.fr - [Twitter](https://twitter.co
 
 Elyas BENYAMINA - elyas.benyamina@ens-paris-saclay.fr
 
-[Project Link](https://github.com/ozekri/CKN_from_Scratch)
+[Project Link](https://github.com/ozekri/MVA/tree/main/Kernel%20Methods/Project)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
