@@ -1,7 +1,7 @@
 /*!
 Cuda implementation of scipy.signal.correlate2d
 See <https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.correlate2d.html> for
-the origial implementation.
+the original implementation.
 */
 
 
