@@ -67,6 +67,9 @@ We set ourselves the challenge of implementing **from scratch**, the **Convoluti
 
 Since it's a from scratch implementation, it's very inefficient and doesn't work on GPUs. We advise you to use [Dexiong Chen's excellent Pytorch implementation](https://github.com/claying/CKN-Pytorch-image), which helped us build this one.
 
+Thanks to this implementation we won the Kaggle data challenge in the context of the [MVA Kernel Methods(https://mva-kernel-methods.github.io/course-2023-2024/)] course given by Julien Mairal, Alessandro Rudi and Michael Arbel.
+<img src="https://github.com/ozekri/CKN_from_Scratch/blob/main/img/kagglekernelmethods.png" alt="Logo">
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
